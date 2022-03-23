@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="LionTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="LionTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -56,9 +56,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="LionTest" name="shouldGetKittens" time="0.001"/>
-  <testcase classname="LionTest" name="shouldMaleHaveMane" time="0"/>
-  <testcase classname="LionTest" name="shouldFemaleNotHaveMane" time="0"/>
-  <testcase classname="LionTest" name="shouldGetFood" time="0.003"/>
-  <testcase classname="LionTest" name="shouldThrowUnknownSexError" time="0"/>
+  <testcase classname="LionTest" name="shouldManeRelateToSex[0]" time="0.001"/>
+  <testcase classname="LionTest" name="shouldGetKittens[0]" time="0.001"/>
+  <testcase classname="LionTest" name="shouldGetFood[0]" time="0.003"/>
+  <testcase classname="LionTest" name="shouldThrowUnknownSexError[0]" time="0"/>
+  <testcase classname="LionTest" name="shouldManeRelateToSex[1]" time="0.001"/>
+  <testcase classname="LionTest" name="shouldGetKittens[1]" time="0"/>
+  <testcase classname="LionTest" name="shouldGetFood[1]" time="0.001"/>
+  <testcase classname="LionTest" name="shouldThrowUnknownSexError[1]" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="CatTest" time="0.569" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="CatTest" time="0.567" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -56,6 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="CatTest" name="shouldGetFood" time="0.568"/>
-  <testcase classname="CatTest" name="shouldGetSound" time="0.001"/>
+  <testcase classname="CatTest" name="shouldGetFood" time="0.567"/>
+  <testcase classname="CatTest" name="shouldGetSound" time="0"/>
 </testsuite>
